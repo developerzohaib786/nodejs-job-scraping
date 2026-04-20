@@ -65,6 +65,8 @@ async function scrapeJobs(pages) {
     const data = await postJson(API_URL, { ...BASE_BODY, range });
     const jobs = data.jobs || [];
 
+    // useless comment
+    
     if (jobs.length === 0) {
       console.log('No more jobs returned.');
       break;
