@@ -1,0 +1,195 @@
+{
+  "personalInfo": {
+    "firstName": "Muhammad Zohaib",
+    "lastName": "Irshad",
+    "title": "Mid-Senior Software Engineer",
+    "email": "zohaibirshad678@gmail.com",
+    "phone": "+92-322-9146594",
+    "location": {
+      "city": "Islamabad",
+      "country": "Pakistan",
+      "timezone": "PKT (UTC+5)"
+    },
+    "linkedin": "linkedin.com/in/muhammad-zohaib-irshad",
+    "github": "github.com/developerzohaib786",
+    "portfolio": "https://portfolio-link",
+    "nationality": "Pakistani"
+  },
+  "professionalSummary": "Full-stack developer specializing in MERN and PERN stacks, with strong expertise in Next.js and NestJS. Focused on designing scalable, high-performance backend architectures and building production-ready systems. Active open-source contributor committed to clean code and practical solutions.",
+  "workExperience": [
+    {
+      "position": "Full Stack TypeScript Developer",
+      "company": "SyncaAI",
+      "location": "Remote",
+      "type": "Full-time",
+      "startDate": "2025-07",
+      "endDate": "2025-10",
+      "current": false,
+      "responsibilities": [
+        "Built scalable Next.js applications and backend APIs using Node.js and Prisma",
+        "Improved API performance by ~30% through optimization and caching strategies",
+        "Developed production-ready systems with focus on scalability and performance",
+        "Implemented best practices for clean code and maintainable architecture"
+      ],
+      "technologies": [
+        "Next.js",
+        "Node.js",
+        "TypeScript",
+        "Prisma",
+        "React"
+      ]
+    },
+    {
+      "position": "Full Stack Web Developer Intern",
+      "company": "Softechnova Enterprises",
+      "location": "Pakistan",
+      "type": "Internship",
+      "startDate": "2025-05",
+      "endDate": "2025-06",
+      "current": false,
+      "responsibilities": [
+        "Developed REST APIs and responsive React interfaces",
+        "Collaborated in agile environment and improved deployment workflows",
+        "Participated in code reviews and team meetings",
+        "Implemented frontend components using modern React practices"
+      ],
+      "technologies": [
+        "React",
+        "Node.js",
+        "REST APIs",
+        "JavaScript"
+      ]
+    },
+    {
+      "position": "SEO Expert & WordPress Developer",
+      "company": "SARTE Digital Marketing",
+      "location": "Rawalpindi, Pakistan",
+      "type": "Full-time",
+      "startDate": "2024-01",
+      "endDate": "2024-12",
+      "current": false,
+      "responsibilities": [
+        "Increased organic search traffic by 35% through SEO optimization",
+        "Improved site load speeds by 42% through performance optimization",
+        "Developed and maintained WordPress websites",
+        "Implemented SEO best practices and analytics tracking"
+      ],
+      "technologies": [
+        "WordPress",
+        "SEO",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Software Engineering",
+      "institution": "Air University",
+      "location": "Islamabad, Pakistan",
+      "startDate": "2021-09",
+      "endDate": "2025-06",
+      "gpa": "Not specified",
+      "achievements": [
+        "Completed comprehensive software engineering curriculum",
+        "Active in coding competitions and tech communities",
+        "Contributed to open-source projects during studies"
+      ]
+    }
+  ],
+  "skills": {
+    "programmingLanguages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "frontend": [
+      "React",
+      "Next.js",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "Shadcn/UI"
+    ],
+    "backend": [
+      "Node.js",
+      "Express.js",
+      "NestJS",
+      "Prisma",
+      "JWT",
+      "Socket.io"
+    ],
+    "databases": [
+      "MongoDB",
+      "PostgreSQL",
+      "NeonDB",
+      "MySQL",
+      "Vector Database (Qdrant)"
+    ],
+    "cloudAndDevOps": [
+      "Docker",
+      "AWS",
+      "GitHub Actions",
+      "Git",
+      "Linux Basics",
+      "Vercel"
+    ],
+    "tools": [
+      "Git",
+      "GitHub",
+      "Postman",
+      "VS Code",
+      "Docker"
+    ],
+    "systemDesign": [
+      "Redis",
+      "Kafka",
+      "BullMQ",
+      "Rate Limiting",
+      "Cache",
+      "Server Clustering",
+      "Microservices"
+    ],
+    "softSkills": [
+      "Clean Code",
+      "Problem Solving",
+      "Agile Development",
+      "Team Collaboration",
+      "Open Source Contribution"
+    ]
+  },
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Professional Working Proficiency",
+      "level": "C1"
+    },
+    {
+      "language": "Urdu",
+      "proficiency": "Native",
+      "level": "Native"
+    },
+    {
+      "language": "Punjabi",
+      "proficiency": "Native",
+      "level": "Native"
+    }
+  ],
+  "availability": {
+    "jobType": [
+      "Full-time",
+      "Contract",
+      "Remote"
+    ],
+    "remoteWork": true,
+    "relocation": true,
+    "noticePeriod": "Immediate",
+    "expectedSalary": {
+      "currency": "USD",
+      "min": 35000,
+      "max": 55000,
+      "period": "annual"
+    }
+  }
+}

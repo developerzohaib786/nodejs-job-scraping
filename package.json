@@ -12,8 +12,12 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@google-cloud/translate": "^9.3.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "playwright": "^1.59.1"
+    "playwright": "^1.59.1",
+    "puppeteer": "^24.42.0"
   },
   "devDependencies": {
     "@types/node": "^25.6.0",
