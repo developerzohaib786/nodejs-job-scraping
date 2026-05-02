@@ -61,6 +61,11 @@ app.post('/apply', async (req, res) => {
     return res.status(400).json({ success: false, error: '"job.url" and "profile" are required' });
   }
 
+  // Add this near your other routes (e.g., above app.get('/getalljobs/:pages'))
+app.get('/', (req, res) => {
+  res.send('Node.js Scraper API is running!');
+});
+
   // Use applyLink (rcf.adecco.com quick-apply) if available, otherwise fall back to job page
   const targetUrl = job.applyLink || job.url;
 
