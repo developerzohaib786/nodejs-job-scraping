@@ -13,6 +13,10 @@ const PORT = process.env.PORT || 3001;
 const translate = new Translate({ key: process.env.GOOGLE_TRANSLATION_KEY });
 // ci/cd pipeline testing comment 
 
+app.get('/', (req, res) => {
+  res.send('Node.js Scraper API is running!');
+});
+
 app.get('/getalljobs/:pages', async (req, res) => {
   const pages = parseInt(req.params.pages, 10);
 
@@ -71,10 +75,6 @@ app.post('/apply', async (req, res) => {
   handleApplication(targetUrl, profile)
     .then(result => console.log(`[/apply] ${targetUrl} →`, result.message))
     .catch(err => console.error(`[/apply] Error:`, err.message));
-});
-
-app.get('/', (req, res) => {
-  res.send('Node.js Scraper API is running!');
 });
 
 app.listen(PORT, () => {
