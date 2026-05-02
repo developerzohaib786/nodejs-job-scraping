@@ -9,7 +9,7 @@ async function scrapeJobs(pages) {
   const scrapedAt = new Date().toISOString();
 
   const browser = await chromium.launch({
-    headless: false,
+    headless: true,
     slowMo: 80,
     args: ['--no-sandbox', '--disable-setuid-sandbox'],
   });
